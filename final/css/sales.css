@@ -1,0 +1,20 @@
+ .contains h2{
+	font-size:25px;
+	font-family: 'Playfair Display', serif;
+	margin:10px;
+}
+ .contains p{
+	font-family: 'Playfair Display', serif;
+	margin:5px;
+}
+.contains{
+	
+	margin:10px 0px 0 10px ;
+	border:1px solid #ccc;
+	background-image:url("bkg/bkg3.png");
+}
+.five.contains img{
+	height:380px;
+	width:200px;
+}
+

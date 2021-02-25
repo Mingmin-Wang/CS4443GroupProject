@@ -1,0 +1,88 @@
+.two .pixinfo{
+	height:300px;
+	width:200px;
+	margin:5px;
+}
+.contitle {
+font-size:	25px;
+font-family:'Lobster Two', cursive;
+font-weight:200px;
+text-align:center;
+
+}
+
+.two .right{
+	background-image:url("bkg/bkg1.png") ;
+	margin:10px 0px 0px 0px;
+	
+}
+#booklist .num{
+	width: 29px;
+    padding-left: 8px;
+    float: left;
+    font-size: 16px;
+}
+#booklist li.linebar{
+
+	height: 36px;
+    line-height: 36px;
+    border-bottom: 1px dotted #d8d8d8;
+    width: 220px;
+    margin-left: 9px;
+    vertical-align: top;
+	
+}
+#booklist li{
+height:110px;	
+list-style-type: none;
+}
+
+
+
+p.bookname img{
+	width:80px;
+	height:100px;
+	float:left;
+	margin-right:5px;
+    
+	
+}
+
+.linebarhidden {
+display: none;
+}
+
+
+
+
+
+
+.contains{
+display:inline-block;
+position:relative;
+height:auto;
+}
+
+.popup{
+position: absolute;
+bottom: 0;
+left:0;
+right: 0;
+background-color:#117A65;
+overflow: hidden;
+width: 100%;
+height: 50%;
+opacity:0;
+}
+
+.contains span{
+text-align:center;
+color:white;
+top: 50%;
+line-height: 25px;
+font-family:bookman old style;
+}
+
+.contains:hover .popup{
+opacity:1;
+}

@@ -1,0 +1,150 @@
+	
+body {
+   
+  margin:0;
+}
+main { 
+  margin: 1.5em 2em 0.5em 2em;
+  padding: 0.5em;
+}
+.one,.depart,.author1,.five{
+	display:flex;
+}
+
+
+.left{
+	margin-right:10px;
+	flex:1;
+}
+.list{
+  display: inline;
+  list-style: none;
+}
+section {
+  border-width: thin;
+  
+  margin:0.5em
+}
+h3 {
+  background-color: #FCF3CF;
+  color: black;
+  font-size: 20px;
+  padding: 1em 1em 1em 1em;
+  margin:0px 0 0 0;
+  font-family: 'EB Garamond', serif;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #91BDE8;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*form*/
+legend {
+   background-color: #91BDE8 ;
+   color: white;
+   margin: 0 auto;
+   
+   padding: 0.25em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+}
+#SigninForm fieldset,#FeedbackForm fieldset {
+   margin: 1em auto;
+   background-color: #F2F3F4;
+   width: 75%;
+}
+form#SigninForm  p,#FeedbackForm p {
+   margin-top: 0.5em;
+}
+form#SigninForm input[type="text"], form select {
+    font-size: 16px;
+    height: 24px;
+    padding: 3px;
+}
+form#SigninForm select,form#FeedbackForm select {
+    height: 30px;
+}
+form#SigninForm,form #FeedbackForm{
+	position:relative;
+	top:-10px;
+	left:50px;
+}
+/*table*/
+
+
+table	{
+	font-family: 'Courier Prime', monospace;
+	font-size:	1em;
+	margin-top:10px;
+	height:300px;
+	width:230px;
+	text-align:left;
+	color:black;
+}			
+table a:link{
+	text-decoration:none;
+	
+}
+table a:hover{
+	color:red;
+}
+tbody	{		
+background-color:#E5E7E9;
+}		
+td,	th	{
+padding:	0.5em;
+
+}	
+
+ footer {
+  color:black;
+  background-color:#FEF9E7 ;
+  margin: 0.25em 2em 0em 2em;
+ 
+}
+footer a {
+  color: 
+}
+footer h4 {
+  background-image:url("bkg/bkg2.jpg");
+  padding: 1em;
+  line-height: 1.25;
+}
+.bottom-links{
+	padding:0 10px 0 10px;
+	height:230px;
+}
+.bottom-links ul{
+
+	margin: 0;
+    padding: 0;
+    list-style: none;
+	
+}
+.bottom-column {
+    width: 33.3%;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 0;
+	
+}
+	
+}
+
+h5{
+	line-height: 1.25;
+	margin: 0;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	color:black;
+	
+	text-align:center;
+}

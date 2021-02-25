@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<!--HEAD -->
+<head>
+  <title>Group Project HW7</title>
+  <link rel="stylesheet" href="css/final-project.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/PopularAuthor.css" />
+  <link rel="stylesheet" href="css/NewRelease.css" />
+  <link rel="stylesheet" href="css/recommend.css" />
+  <link rel="stylesheet" href="css/sales.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Dancing+Script&family=Courier+Prime&family=EB+Garamond&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+   <script type="text/javascript" src="js/header.js"></script>
+    
+</head>
+
+<body>
+  
+  <!--HEADER -->
+  <header class="HeaderContent" id="globalHeader" >
+   <div class="space">
+	<div class="hd">
+		<div id="utility-links">
+			<a href="#">My Account</a>
+			<a href="#">Membership</a>
+			<a href="#">Gift Cards</a>
+			<a href="#">Event</a>
+			<a href="#">Help</a>
+		</div>
+	</div>
+	
+	<div class="Login">
+		 
+		  <h4>“A book must be the axe for the frozen sea inside us.”By Frank Kafka</h4>
+			<div class="logoAndSearch">
+			
+			<div>
+				<img src="logo/logo2.png" alt="open book" class="logo2"align="left" hspace="0" vspace="0"width="180" height="80">
+				<!--form -->
+				<form class="searchForm" action="/action_page.php" style="margin:auto;max-width:400px;height:65px">
+				<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+				<div class="signin">
+				<a href="#" id="signInLink" class="sign-in-link account-sign-in">Hello, Sign In</a>
+				</div>
+			</div>
+			
+			<div class="ShoppingCart">
+					<p>0</p>
+					<i class="fa fa-cart-plus"></i>	
+					
+			</div>
+			
+			<div class="cartbox">
+				<div class="list">
+					<i class="fa fa-close"></i>
+					<h2>Cart</h2>
+					<p>You have 0 items in your bag.<br>
+					Start shopping and get free shipping on order of $35+.</p>
+				</div>
+			</div>
+			<div class="Wishlist">	
+					<i class="fa fa-heart"></i>
+			</div>
+
+					
+			</div>
+			
+	</div>
+	
+	
+    <div class="topnav" id="MainMenu">
+	<!--div class="dropdown">-->
+	<ul>
+		<li class="dropdown" >
+          <button class="dropbtn"id="_one">Books</button>
+			<div class="dropdown-content">
+			
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Bestsellers</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+				<div class="mb">
+				<p>We Recommend</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Fiction</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Blogs</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Nonfiction</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Specials</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			  </div>
+			  
+			</div>
+		</li>
+		
+		<li class="dropdown" >
+          <button class="dropbtn"id="_two">eBooks</button>
+			<div class="dropdown-content">
+				<div class="col" role="group">
+			    <div class="mb">
+				<p>We Recommend</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+				<div class="mb">
+				<p>Literature&amp;Fiction</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>History</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Bisiness</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Sci-Fi&amp;Fantasy</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Comics</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			  </div>
+			</div>
+		</li>
+		
+		<li class="dropdown">
+          <button class="dropbtn"id="_three">Textbooks</button>
+		    <div class="dropdown-content">
+				<div class="col" role="group">
+			    <div class="mb">
+				<p>Departments</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Subjects</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+	
+			  </div>
+			  
+			  <div class="col" role="group">
+				<div class="mb">
+				<p>Specials</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			  </div>
+			</div>
+		</li>
+		
+		
+		<li class="dropdown">
+          <button class="dropbtn"id="_four">Teens&YA </button>
+		  <div class="dropdown-content">
+				 <div class="col" role="group">
+			    <div class="mb">
+				<p>Bestsellers</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+				<div class="mb">
+				<p>We Recommend</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Fiction</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Blogs</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Nonfiction</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Specials</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			  </div>
+			</div>
+		</li>
+		
+		<li class="dropdown">
+		  <button class="dropbtn"id="_five">Music</button>
+		  <div class="dropdown-content">
+				 <div class="col" role="group">
+			    <div class="mb">
+				<p>Browse</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Genres</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Collections</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+				<div class="mb">
+				<p>Specials</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			  </div>
+		  </div>
+		</li>
+		
+		<li class="dropdown">
+          <button class="dropbtn"id="_six">Games&Movies </button>
+		  <div class="dropdown-content">
+				 <div class="col" role="group">
+			    <div class="mb">
+				<p>Browse</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+				<div class="mb">
+				<p>Characters</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Categories</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Brands</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+				<div class="mb">
+				<p>Specials</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			  </div>
+		  </div>
+		</li>
+		
+		<li class="dropdown">
+		  <button class="dropbtn"id="_seven">Home&Office </button>
+		  <div class="dropdown-content">
+				 <div class="col" role="group">
+			    <div class="mb">
+				<p>Browse</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+				<div class="mb">
+				<p>Characters</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			
+			  </div>
+			  
+			  <div class="col" role="group">
+			    <div class="mb">
+				<p>Categories</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+				<div class="mb">
+				<p>Brands</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">See more ></a>
+				</div>
+			  </div>
+			  
+			  <div class="col" role="group">
+				<div class="mb">
+				<p>Specials</p>
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				</div>
+			  </div>
+		  </div>
+		</li>
+	</ul>
+    </div>
+  </div>
+  </header>
+
+
+
+  <!--MAIN BODY-->
+  <main>
+    <div class="one">
+
+		
+	  <div class="left">
+		
+		<h3>RECOMMEND</h3>
+		
+		<div id="photo-list">  
+			<ul id="scroll">  
+			<li><a href="#"><img src="recom/1.jpe" width="183" height="275" alt=""/></a></li>  
+			<li><a href="#"><img src="recom/2.jpe" width="183" height="275" alt=""/></a></li>  
+			<li><a href="#"><img src="recom/3.jpe" width="183" height="275" alt=""/></a></li>  
+			<li><a href="#"><img src="recom/4.jpe" width="183" height="275" alt=""/></a></li>  
+			<li><a href="#"><img src="recom/5.jpe" width="169" height="275" alt=""/></a></li>
+			<li><a href="#"><img src="recom/6.jpe" width="169" height="275" alt=""/></a></li>
+			<li><a href="#"><img src="recom/7.jpe" width="169" height="275" alt=""/></a></li>
+			</ul> 
+        </div>
+		<script type="text/javascript" src="js/recommend.js"> </script>
+	  </div>
+	  
+	 
+	  <div class="right">
+				<form method="POST" action="php/create.php" id="SigninForm">
+		  <fieldset>
+			<legend>Create An Account</legend>
+			First Name: <input type="text" name="first">
+			<br><br>
+			Last Name: <input type="text" name="last">
+			<br><br>
+			E-mail: <input type="text" name="email">
+			<br><br>
+			Password:<input type="password" name="pwd">
+			<br><br>
+			Confirm Password:<input type="password" name="pwd">
+			<br><br>
+			<input type="submit" name="submit" value="Submit" >
+			<input type="reset" name="cancel" value="Cancel">
+			<br><br>
+		  </fieldset>
+		</form>
+	  </div>
+	
+	</div>
+	
+	<div class="two">
+		<h3>NEW RELEASES</h3>
+		<div class="depart">
+			<div class="left">
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/SongbirdSnakes.png" alt="The Ballad of Songbirds and Snakes" /></a><span class="popup">Title: The Ballad of Songbirds and Snakes<br>Author: Suzanne Collins <br> Genre: Science Fiction<br>Price: $14.48<br><em>"The twists and heartbreaks captivate despite tragic inevitabilities" - kirkreviews.com</em></span>
+					</div>
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/Glass.png" alt="The Glass Hotel" /></a><span class="popup">
+							Title: The Glass Hotel <br>Author: Emily ST. John Mandel <br> Genre: Mystery<br>Price: $19.48<br><br><em>
+								"The Glass Hotel may be the perfect novel for your survival bunker."
+								- The Washington Post
+							</em>
+						</span>
+					</div>
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/transcendentKingdom.jpg" alt="Transcendent Kingdom" /></a><span class="popup">Title: Transcendent Kingdom <br>Author: Yaa Gyasi <br> Genre: Literary Fiction<br>Price: $16.77<br><br><em>A TODAY SHOW #ReadWithJenna BOOK CLUB PICK!<br>INSTANT NEW YORK TIMES BEST SELLER</em></span>
+					</div>
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/onebyone.jpg" alt="One By One" /></a><span class="popup">
+							Title: One By One <br>Author: Ruth Ware <br> Genre: Suspense/Thriller<br>Price: $16.79<br><br><em>
+								#1 New York Times bestselling author
+								“Diabolically clever.” —Riley Sager, author of Final Girls
+							</em>
+						</span>
+					</div>
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/earthandblood.jpg" alt="The House of Earth and Blood" /></a><span class="popup">Title: The House of Earth and Blood (Crescent City) <br>Author: Ssarah J. Maas <br> Genre: Fantasy<br>Price: $18.00<br><br><em>A #1 New York Times bestseller!</em></span>
+					</div>
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/jack.jpg" alt="The House of Earth and Blood" /></a><span class="popup">Title: The House of Earth and Blood (Crescent City) <br>Author: Ssarah J. Maas <br> Genre: Fantasy<br>Price: $18.00<br><br><em>A #1 New York Times bestseller!</em></span>
+					</div>
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/hisonly.jpg" alt="The House of Earth and Blood" /></a><span class="popup">Title: The House of Earth and Blood (Crescent City) <br>Author: Ssarah J. Maas <br> Genre: Fantasy<br>Price: $18.00<br><br><em>A #1 New York Times bestseller!</em></span>
+					</div>
+					<div class="contains">
+						<a href="#"><img class="pixinfo" src="book_png/Monogamy.jpg" alt="The House of Earth and Blood" /></a><span class="popup">Title: The House of Earth and Blood (Crescent City) <br>Author: Ssarah J. Maas <br> Genre: Fantasy<br>Price: $18.00<br><br><em>A #1 New York Times bestseller!</em></span>
+					</div>
+			</div>
+
+			<div class="right">
+			<p class="contitle">Top 10 of Bestsellers</p>
+				<ol id="booklist">
+					<li class="linebar" type="bar"  >
+					<span class="num">1</span><p  ><a class="booklink" href="#" >A Game of Thrones</a></p> 
+					           
+					</li>
+					<li class="lineitem" style="display:none; ">
+						<p class="bookname">
+							<span class="num">1</span><a title="A Game of Thrones" href="#" target="_blank">A Game of Thrones</a>
+							<img src="book_png/AGameOfThrones.jpg"   alt="A Game of Thrones" />
+							<span class="showtext">George R. R. Martin<br>$33.53</span>
+							
+						</p>
+					</li>
+					
+					<li class="linebar" type="bar" >
+						<span class="num">2</span><p><a href="#" >IT</a></p> 
+					           
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">2</span><a title="IT" href="#" target="_blank">IT</a>
+							<img src="book_png/It.jpg"  alt="Steven King's IT" />
+							<span class="showtext">Steven King<br>$16.20</span>
+						</p>
+					</li>
+					
+					<li class="linebar" type="bar" >
+						<span class="num">3</span><p><a href="#" >City of Heavenly Fire</a></p> 
+					           
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">3</span><a title="City of Heavenly Fire" href="#" target="_blank">City of Heavenly Fire</a>
+							<img src="book_png/City_of_Heavenly_Fire.jpg" alt="City of Heavenly Fire" />
+							<span class="showtext"> Cassandra Clare<br>$22.57</span>
+							
+						</p>
+					</li>
+					
+					<li class="linebar" type="bar" >
+						<span class="num">4</span><p><a href="#" >MockingJay</a></p> 
+		
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">4</span><a title="MockingJay" href="#" target="_blank">MockingJay</a>
+							<img src="book_png/mockingjay.jpg" alt="Mockingjay" />
+							<span class="showtext">Suzanne Collins<br>$8.79</span>
+							
+						</p>
+					</li>
+					<li class="linebar" type="bar" >
+						<span class="num">5</span><p><a href="#" >The Lord of the Rings</a></p> 
+		
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">5</span><a title="The Lord of the Rings" href="#" target="_blank">The Lord of the Rings</a>
+							<img src="book_png/The_Lord_of_the_Rings.gif" alt="The Lord of the Rings" /><span class="showtext">J.R.R. Tolkien<br>$26.47</span>
+							
+						</p>
+					</li>
+					
+					<li class="linebar" type="bar" >
+						<span class="num">6</span><p><a href="#" >Harry Potter and the </a></p> 
+		
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">6</span><a title="Harry Potter and the Deathly Hallows" href="#" target="_blank">Harry Potter and<br> the Deathly Hallows</a>
+							<img src="book_png/Harry_Potter_and_the_Deathly_Hallows.jpg" alt="Harry Potter and the Deathly Hallows" />
+							<span class="showtext">J K Rowling<br>$10.00</span>
+							
+						</p>
+					</li>
+					<li class="linebar" type="bar" >
+						<span class="num">7</span><p><a href="#" >To Kill a Mockingbird</a></p> 
+		
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">7</span><a title="To Kill a Mockingbird" href="#" target="_blank">To Kill a Mockingbird</a>
+							<img src="book_png/To_Kill_a_Mockingbird.jpg" alt="To Kill a Mockingbird" /><span class="showtext">Harper Lee<br>$18.99</span>
+							
+						</p>
+					</li>
+					<li class="linebar" type="bar" >
+						<span class="num">8</span><p><a href="#" >Fifty Shades of Grey</a></p> 
+		
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">8</span><a title="Fifty Shades of Grey" href="#" target="_blank">Fifty Shades of Grey</a>
+							<img src="book_png/50ShadesofGrey.jpg" alt="Fifty Shades of Grey" />
+							<span class="showtext">E. L. James<br> $15.00</span>
+							
+						</p>
+					</li>
+					<li class="linebar" type="bar" >
+						<span class="num">9</span><p><a href="#" >Charlotte's Web</a></p> 
+		
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">9</span><a title="Charlotte's Web" href="#" target="_blank">Charlotte's Web</a>
+							<img src="book_png/CharlotteWeb.png" alt="Charlotte's Web" />
+							<span class="showtext">E. B White<br> $6.40</span>
+							
+						</p>
+					</li>
+					<li class="linebar" type="bar" >
+						<span class="num">10</span><p><a href="#" >The Great Gatsby</a></p> 
+		
+					</li>
+					<li class="lineitem"style="display:none; ">
+						<p class="bookname">
+							<span class="num">10</span><a title="The Great Gatsby" href="#" target="_blank">The Great Gatsby</a>
+							<img src="book_png/The_Great_Gatsby.jpg" alt="The Great Gatsby" />
+							<span class="showtext">F. Scott Fitzgerald<br>$14.20</span>
+							
+						</p>
+					</li>
+				</ol>
+			</div>	
+		</div>	
+	</div>
+	
+  
+	
+	<div class="three">
+		
+		<section class="whole">
+		
+			<div class="subtitle">
+				<h3>POPULAR AUTHORS</h3>
+			   
+			   <div class="tab">
+                  <button class="tablinks" onclick="openAuthor(event, 'King')">Stephen King</button>
+  			      <button class="tablinks" onclick="openAuthor(event, 'Clare')">Cassandra Clare</button>
+  			      <button class="tablinks" onclick="openAuthor(event, 'Child')">Lee Child</button>
+			      <button class="tablinks" onclick="openAuthor(event, 'Month')">Suggestions?</button>
+			   </div>
+
+			   <div id="King" class="tabcontent">
+			   
+                <div class="author1">
+				   <div class="left">
+			      <img src="images/s-king.jpe" alt="Stepen King" title="Stephen King" align="left" vspace="5" hspace="5"style="border: solid black 1px; padding: 2px"/>
+                              <p>A well known American author of horror, suprernatural fiction,
+                              suspense, crime, science-fiction, and fantasy novels.  His stories never fail
+                              to keep readers on the edge of their seats.</p>
+                              <p>Author of <i>It</i>, <i>The Shining</i>, <i>The Stand</i>, <i>Carrie</i>, and much more.</p>
+					</div>
+					  <table align="right" hspace="5" vspace="5">
+					  <tbody>
+					  <tr>
+						<th scope="row"><a href="#">1. Stephen King</a></th>
+					  </tr>
+					  <tr>
+						<th scope="row"><a href="#">2. Cassandra Clare</a></th>
+					  </tr>
+					  <tr>
+						<th scope="row"><a href="#">3. Lee Child</a></th>
+					  </tr>
+					  <tr>
+						<th scope="row"><a href="#">4. Diana Gabaldon</a></th>
+					  </tr>
+					  <tr>
+						<th scope="row"><a href="#">5. Anthony Horowitz</a></th>
+					  </tr>
+					  </tbody>
+					</table>
+                </div> 
+				
+				
+				
+			   </div>
+
+                <div id="Clare" class="tabcontent">
+                              
+			      <img src="images/c-clare.jpe" alt="Cassandra Clare" title="Cassandra Clare" align="left" vspace="5" hspace="5"style="border: solid black 1px; padding: 2px"/>
+                              <p>An American author of young adult fiction.  Best known for her bestselling series The
+                              Mortal Instruments, a series teens and young adults alike throughouly enjoy.</p>
+                              <p>Author of the book series <i>The Mortal Instruments</i> and the <i>Shadowhunter Chronicles</i> series.</p>
+                </div>
+
+                <div id="Child" class="tabcontent">
+                              
+			      <img src="images/l-child.jpe" alt="Lee Child" title="Lee Child" align="left" vspace="5" hspace="5" style="border: solid black 1px; padding: 2px"/>
+                              <p>A British author who writes thriller novels, and is best known for his Jack
+                              Reacher novel series.</p>
+                              <p>Author of the <i>Jack Reacher</i> series, <i>Inherit the Dead</i>, <i>Like A Charm</i>, and more.</p>
+                </div>
+			   
+                <div id="Month" class="tabcontent">
+			      <p>Do you have any of your favorite authors you want to see in our popular authors section here?</p>
+			      <p>Leave their names with your comments in the Feedback section of our website!</p>
+			   </div>
+
+                           <script>
+                              function openAuthor(evt, authorName) {
+                                 var i, tabcontent, tablinks;
+                                 tabcontent = document.getElementsByClassName("tabcontent");
+                                 for (i = 0; i < tabcontent.length; i++) {
+                                    tabcontent[i].style.display = "none";
+                                 }
+                                 tablinks = document.getElementsByClassName("tablinks");
+                                 for (i = 0; i < tablinks.length; i++) {
+                                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                 }
+                                 document.getElementById(authorName).style.display = "block";
+                                 evt.currentTarget.className += " active";
+                              }
+                           </script>
+					   
+			
+		
+			</div>	
+		
+	    </section>
+		
+			
+		
+	
+    </div>
+   
+	<div class="four">
+			
+				<h3 >SALES</h3>
+		
+				<div class="contains" style="display: none;">
+					<h2 style="text-align: center;"><strong>It</strong></h2>
+					<p style="text-align: center;"><strong>Stephen King</strong></p>
+					<p style="text-align: center;"><strong><em>BEST SELLER</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="Images/it.jpg" alt="it" style="height:381px;">
+						<span class="popup" style="top: 20.39%;    height: 54.7%;">
+							It
+							<br>By Stephen King<br>
+
+							<strong>Best SELLER</strong> <br>Price: $19.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$24.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								“It will overwhelm you…Characters so real you feel you are reading about yourself…scenes to be read in a well-lit room only.”, Los Angeles Times
+								“The indisputable King of Horror.”, Time Magazine
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;"><strong>$19.99</strong></p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$24.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>City of Glass</strong></h2>
+					<p style="text-align: center;"><strong>Cassandra Clare</strong></p>
+					<p style="text-align: center;"><strong><em>BEST VALUE</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="Images\city-of-glass.jpe" alt="city-of-glass" style="height:381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							City of Glass
+							<br>By Cassandra Clare<br>
+
+							<strong>Best VALUE</strong> <br>Price: $8.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$19.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								!!! -- 45% DISCOUNT -- !!!
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$19.99</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$24.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>Charlotte's Web</strong></h2>
+					<p style="text-align: center;"><strong>E. B White</strong></p>
+					<p style="text-align: center;"><strong><em>ALL TIME FAVORITE</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="book_png\CharlotteWeb.png" alt="city-of-glass" style=" height: 381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							Charlotte's Web
+							<br>By E. B White<br>
+
+							<strong>ALL TIME FAVORITE</strong> <br>Price: $6.40
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$10.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								TBD
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$6.40</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$10.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>IT</strong></h2>
+					<p style="text-align: center;"><strong>Stephen King</strong></p>
+					<p style="text-align: center;"><strong><em>BEST SELLER</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="book_png\itbs.jpg" alt="city-of-glass" style=" height: 381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							IT
+							<br>By Stephen King<br>
+
+							<strong>BEST SELLER</strong> <br>Price: $19.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$24.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$19.00</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$19.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>Killing Floor</strong></h2>
+					<p style="text-align: center;"><strong>Lee Child</strong></p>
+					<p style="text-align: center;"><strong><em>BEST VALUE</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="book_png\killingfloor.jpg" alt="city-of-glass" style=" height: 381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							Killing Floor
+							<br>By Lee Child<br>
+
+							<strong>BEST VALUE</strong> <br>Price: $9.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$14.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								TBD
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$9.99</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$14.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>Outlander</strong></h2>
+					<p style="text-align: center;"><strong>Diana Gabaldon</strong></p>
+					<p style="text-align: center;"><strong><em>BEST VALUE</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="book_png\outlander.jpg" alt="city-of-glass" style=" height: 381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							Outlander
+							<br>By Diana Gabaldon<br>
+
+							<strong>BEST VALUE</strong> <br>Price: $9.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$14.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								TBD
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$9.99</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$14.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>Trip Wire</strong></h2>
+					<p style="text-align: center;"><strong>Lee Child</strong></p>
+					<p style="text-align: center;"><strong><em>BEST VALUE</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="book_png\tripwire.jpg" alt="city-of-glass" style=" height: 381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							Trip Wire
+							<br>By Lee Child<br>
+
+							<strong>BEST VALUE</strong> <br>Price: $9.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$14.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								TBD
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$6.40</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$14.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>Die Trying</strong></h2>
+					<p style="text-align: center;"><strong>Lee Child</strong></p>
+					<p style="text-align: center;"><strong><em>BEST VALUE</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="book_png\dietrying.jpg" alt="city-of-glass" style=" height: 381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							Die Trying
+							<br>By Lee Child<br>
+
+							<strong>BEST VALUE</strong> <br>Price: $9.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$14.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								TBD
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$9.99</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$14.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				<!-- <div class="contains" style=" width: 5%; "> -->
+				</div>
+				<div class="contains">
+					<h2 style="text-align: center;"><strong>City Of Bones</strong></h2>
+					<p style="text-align: center;"><strong>Cassandra Clare</strong></p>
+					<p style="text-align: center;"><strong><em>BEST VALUE</em></strong></p>
+					<p style="text-align: center;">
+						<img class="pixinfo" src="book_png\cityofbones.jpg" alt="city-of-glass" style=" height: 381px;">
+						<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+							City Of Bones
+							<br>By Cassandra Clare<br>
+
+							<strong>BEST VALUE</strong> <br>Price: $9.99
+							<em>
+								<span style="text-decoration: line-through;">
+									<span style="color: #ff0000; text-decoration: line-through;">
+										<strong>$14.99</strong>
+									</span>
+								</span>
+							</em>&nbsp;
+							<br>
+							<em>
+								TBD
+
+							</em>
+						</span>
+					</p>
+					<p style="text-align: center;">
+						<strong>$9.99</strong>
+					</p>
+					<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$14.99</strong></em></span></span></p>
+					<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+					<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+				</div>
+				
+			
+
+
+			
+		</div>
+
+	
+	<div class="five">
+	  <div class="left">
+
+		<section>
+			<h3 >COMING SOON</h3>
+
+			<!--<div class="contains" style="display:none">
+				<h2 style="text-align: center;"><strong>It</strong></h2>
+				<p style="text-align: center;"><strong>Stephen King</strong></p>
+				<p style="text-align: center;"><strong><em>BEST SELLER</em></strong></p>
+				<p style="text-align: center;">
+					<img class="pixinfo" src="book_png\it.jpg" alt="it">
+					<span class="popup" style=" top: 44.39%; height: 30.7%;">
+						It
+						<br>By Stephen King<br>
+
+						<strong>Best SELLER</strong> <br>Price: $19.99
+						<em>
+							<span style="text-decoration: line-through;">
+								<span style="color: #ff0000; text-decoration: line-through;">
+									<strong>$24.99</strong>
+								</span>
+							</span>
+						</em>&nbsp;
+						<br>
+						<em>
+							“It will overwhelm you…Characters so real you feel you are reading about yourself…scenes to be read in a well-lit room only.”, Los Angeles Times
+							“The indisputable King of Horror.”, Time Magazine
+						</em>
+					</span>
+				</p>
+				<p style="text-align: center;"><strong>$19.99</strong></p>
+				<p style="text-align: center;"><span style="text-decoration: line-through; color: #ff0000;"><span style="color: #ff0000;"><em><strong>$24.99</strong></em></span></span></p>
+				<p style="text-align: center;"><button class="tablinks">Buy now</button></p>
+				<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+			</div>
+			<div class="contains" style=" width: 5%; ">
+			</div>
+-->
+			<div class="contains">
+				<h2 style="text-align: center;"><strong>One By One</strong></h2>
+				<p style="text-align: center;"><strong>Ruth Ware</strong></p>
+				<p style="text-align: center;"><strong><em>UPCOMING</em></strong></p>
+				<p style="text-align: center;">
+					<img class="pixinfo" src="book_png\onebyone.jpg" alt="city-of-glass" style=" height: 350px;width:230px;">
+					<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+						One By One
+						<br>By Ruth Ware<br>
+
+						<strong>UPCOMING</strong> <br>Pre Order Price: $8.99
+						<em>
+							<span style="text-decoration: line-through;">
+								<span style="color: #ff0000; text-decoration: line-through;">
+									<strong></strong>
+								</span>
+							</span>
+						</em>&nbsp;
+						<br>
+						<em>
+							
+
+						</em>
+					</span>
+				</p>
+				<p style="text-align: center;">
+					<strong>$19.99</strong>
+				</p>
+				<p style="text-align: center;"><span style=" color: #ff0000;"><span style="color: #ff0000;"><em><strong>Coming Soon 12/01</strong></em></span></span></p>
+				<p style="text-align: center;"><button class="tablinks">Pre order</button></p>
+				<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+			</div>
+
+			<div class="contains" >
+			</div>
+
+			<div class="contains">
+				<h2 style="text-align: center;"><strong>The Evening</strong></h2>
+				<p style="text-align: center;"><strong>Ken Follett</strong></p>
+				<p style="text-align: center;"><strong><em>UPCOMING</em></strong></p>
+				<p style="text-align: center;">
+					<img class="pixinfo" src="book_png\theevening.jpg" alt="city-of-glass" style=" height: 350px;width:230px;">
+					<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+The Evening and The Morning
+						<br>By Ken Follett<br>
+
+						<strong>UPCOMING</strong> <br>Price: $6.40
+						<em>
+							<span style="text-decoration: line-through;">
+								<span style="color: #ff0000;">
+									<strong></strong>
+								</span>
+							</span>
+						</em>&nbsp;
+						<br>
+						<em>
+
+						</em>
+					</span>
+				</p>
+				<p style="text-align: center;">
+					<strong>$6.40</strong>
+				</p>
+				<p style="text-align: center;"><span style="color: #ff0000;"><span style="color: #ff0000;"><em><strong>Coming Soon 10/31</strong></em></span></span></p>
+				<p style="text-align: center;"><button class="tablinks">Pre order</button></p>
+				<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+			</div>
+			
+			
+
+			<div class="contains">
+				<h2 style="text-align: center;"><strong>Troubled Blood</strong></h2>
+				<p style="text-align: center;"><strong>Robert Galbraith</strong></p>
+				<p style="text-align: center;"><strong><em>UPCOMING</em></strong></p>
+				<p style="text-align: center;">
+					<img class="pixinfo" src="book_png\troubled.jpg" alt="city-of-glass" style=" height: 350px;width:230px;">
+					<span class="popup" style="
+     top: 44.39%;
+    height: 30.7%;
+">
+						Troubled Blood
+						<br>By Robert Galbraith<br>
+
+						<strong>UPCOMING</strong> <br>Price: $6.40
+						<em>
+							<span style="text-decoration: line-through;">
+								<span style="color: #ff0000; text-decoration: line-through;">
+								
+								</span>
+							</span>
+						</em>&nbsp;
+						<br>
+						<em>
+
+						</em>
+					</span>
+				</p>
+				<p style="text-align: center;">
+					<strong>$6.40</strong>
+				</p>
+				<p style="text-align: center;"><span style="text-decoration; color: #ff0000;"><span style="color: #ff0000;"><em><strong>Coming Soon 10/25</strong></em></span></span></p>
+				<p style="text-align: center;"><button class="tablinks">Pre order</button></p>
+				<p style="text-align: center;"><button class="tablinks">+ to wish list</button></p>
+			</div>
+
+
+		</section>
+
+	  </div>
+	  <div class="right">
+		<form method="POST" action="php/feedback.php" id="FeedbackForm">
+		  <fieldset>
+			<legend>Feedback</legend>
+			Name: <input type="text" name="first">
+			<br><br>
+			Comment:
+			<textarea name="message" rows="5" cols="30"></textarea>
+			<p>Please rate your experience on our website.</p>
+			
+			<input type="submit" name="submit" value="Submit">
+			<input type="reset" name="cancel" value="Cancel">
+			<br><br>
+		  </fieldset>
+		</form>
+	   
+	  </div>
+	</div>
+	<hr>
+	
+	
+	<div class="bottom-links">
+		<div class="bottom-column">
+		<h5>OpenBook Services</h5>
+		<ul><li><a href="#">Advertise</a></li>
+		<li><a href="#">Affiliate Program</a></li>
+		<li><a href="#">Publisher &amp; Author Guidelines</a></li>
+		<li><a href="#">Bulk Order Discounts</a></li>
+		<li><a href="#">O&amp;P Membership</a></li>
+		<li><a href="#">O&amp;P Mastercard</a></li></ul></div>
+	
+	
+	<div class="bottom-column">
+	<h5>Ouick Help</h5>
+	<ul>
+	<li><a href="#">Customer Service</a></li>
+	<li><a href="#">Shipping FAQ</a></li>
+	<li><a href="#">Buy online Pick up in store</a></li>
+	<li><a href="#">Order Status        </a></li>
+	<li><a href="#">      Esay Returns</a></li>
+	<li><a href="#">Product Recalls   </a></li></ul></div>
+	
+	<div class="bottom-column">
+	<h5>About us</h5>
+	<ul><li><a href="#">About O&ampP</a></li>
+	<li><a href="#">Careers at OP</a></li>
+	<li><a href="#">OP Inc</a></li>
+	<li><a href="#">OP Kitchen</a></li>
+	<li><a href="#">OP Press</a></li>
+	<li><a href="#">OP Book Fairs</a></li>
+	</ul></div>
+	
+	</div>
+    
+
+	 <hr>
+ </main>
+  <!--FOOTER-->
+	
+   
+  <footer>
+  
+    <p><h4><a href="#">Service</a> | <a href="#">FAQ</a> | <a href="#">About Us</a>|<a href="#">Term of Use</a>|<a href="#">Privacy</a></h4></p>
+  </footer>
+  
+
+</body>
+</html>
